@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sörbár</title>
+    <meta charset="UTF-8">
+    <meta
+    http-equiv="X-UA-Compatible"
+    content="IE edge">
+    <meta name="viewport"
+    content="with=device-width,
+    initial scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Középen, font-size:65px, dőlt-> “A SÖRBAR”-->
+   <p class="preHeader">A SÖRBÁR</p>
+    
+    <!-- HEADER: Nav: háttér fehér, font-weight: 300, font-size: 30px, középen, space-around->Rólunk; Termékek;  Kapcsolat.-->
+    <div class="grid-container">
+        <div class="grid-item1"><a href="Rolunk.html">Rólunk</a></div>
+        <div class="grid-item2"><a href="termekek.html">Termékek</a></div>
+        <div class="grid-item3"><a href="kapcsolat.html">Kapcsolat</a></div>
+    </div>
+
+    <!--A főoldalon 6 db terméket mutatunk be egy 100vw div-ben, aminek a háttere linear-gradient, background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
+    font-size:22px, font-family: választható -->
+
+
+    <div class="grid-container2">
+        <div class="beer1"><img src="képek/1.png" alt="1" style="width: 70%" a class="beer1details" href="beer1.html"></a>
+            <br>
+            <a class="beer1text" href="beer1.html">1993 (bajor stílusú lager) 4,9%</a>
+        </div>
+
+        <div class="beer2"><img src="képek/2.png" alt="2" style="width: 70%" a class="beer2details" href="beer2.html"></a>
+            <br>
+            <a class="beer2text" href="beer2.html">Etalon (cseh stílusú lager) 4,2%</a>
+        </div>        
+        
+        <div class="beer3"><img src="képek/3.png" alt="3" style="width: 70%" a class="beer3details" href="beer3.html"></a>
+            <br>
+            <a class="beer3text" href="beer3.html">Ogre (pilsner) 5,6%</a>
+        </div>    
+
+        <div class="beer4"><img src="képek/4.png" alt="4" style="width: 70%" a class="beer4details" href="beer4.html"></a>
+            <br>
+            <a class="beer4text" href="beer4.html">Mutti (hidegkomlós lager) 4,9%</a>
+        </div>    
+        
+        <div class="beer5"><img src="képek/5.png" alt="5" style="width: 70%" a class="beer5details" href="beer5.html"></a>
+            <br>
+            <a class="beer5text" href="beer5.html">Hathárom (angol porter) 4,9%</a>
+        </div>    
+        
+        <div class="beer6"><img src="képek/6.png" alt="6" style="width: 70%" a class="beer6details" href="beer6.html"></a>
+            <br>
+            <a class="beer6text" href="beer6.html">Fekete (tradicionális baksör) 7%</a>
+        </div>    
+
+    </div>
+
+
+    <!-- Egy 1200px széles szekcióban, a termékek  dobozban vannak, border: 1px #fff, radiusa: 5px; box-shadow: enyhe, minden oldalon legyen; háttér:#fff, max-magasság: 300px; a szöveg részlet látható, de a teljes szöveg itt még nem.-->
+
+<br>
+
+<!-- A következő szakaszban 100% széles, abban egy 1200px széles dobozban, egy rövid bemutatkozó a bárban dolgozókról, 5 fő, 3 felszolgáló 1 csapos, csak név és foglalkozás a portre fotó előtt. A color:#fff vagy #000 attól függ melyik olvasható jobban, és legyen text-shadow. (Képek szöveg témában megfelelő random) -->
+
+<p class="preHeader">Munkatársaink</p>
+
+
+    <div class="grid-container4">
+
+        <div class="munkatars1"><img src="képek/arc1-02.jpg" alt="arc1" style="width: 70%"> <br><p class="arcok">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt nihil deserunt modi.</p></div>
+        <div class="munkatars2"><img src="képek/arc2-03.jpg" alt="arc2" style="width: 70%"><br><p class="arcok">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt nihil deserunt modi.</p></div>
+        <div class="munkatars3"><img src="képek/arc3-04.jpg" alt="arc3" style="width: 70%"><br><p class="arcok">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt nihil deserunt modi.</p></div>
+        <div class="munkatars4"><img src="képek/arc4-05.jpg" alt="arc4" style="width: 70%"><br><p class="arcok">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt nihil deserunt modi.</p></div>
+        <div class="munkatars5"><img src="képek/arc5-06.jpg" alt="arc5" style="width: 70%"><br><p class="arcok">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, incidunt nihil deserunt modi.</p></div>
+
+
+    </div>
+
+
+<!-- Footer:
+100vw, 300px magas; brand name= font-size:45px, space-around, közép közép minden:
+Név - cím, telefon,e-mail - menü -->
+
+<div class="footer">
+    <p>Sörbár</p>
+    <p>Budapest, Rakpart uca 7</p>
+    <p>Telefon: +36-70-123-4567</p>
+    <p><a href="mailto:someone@example.com">hello@sorbar.hu</a></p>
+  </div>
+
+  <script src="beer.js"></script>
+  
+</body>
+
+
+
+
+
+</html>

@@ -1,0 +1,149 @@
+/* This is a single-line comment */
+
+.preHeader{
+    color: black;
+    font-size: 65px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    display: flex;
+}
+
+.gomb{
+  color: black;
+  font-size: 65px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: center;
+  display: flex;
+}
+
+
+.grid-container {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    display: flex;
+    grid-template-columns:  1fr 1fr 1fr;
+    justify-content: space-around;
+    align-content: center;
+    gap: 20px;
+    margin: 0px 100px 0px 100px;
+}
+
+.grid-item1, .grid-item2, .grid-item3 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    justify-content: center;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-around;
+    margin: 50px 20px 0px 20px;
+    background-color: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%); 
+/* Ezt a linear gradientet nem tudom beállítani */
+}
+
+.grid-container2 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    height: 450px;
+    width: 550px;
+    background-color: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(125,73,23,1) 100%);
+  }
+
+
+  .beer1text, .beer2text, .beer3text, .beer4text, .beer5text, .beer6text{
+    padding: 2px;
+  }
+
+
+  .grid-container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 40px;
+    justify-content: space-around;
+    margin: 50px 20px 0px 20px;
+  }
+
+  .grid-container4 > div {
+    height: 120%;
+    width: 120%;
+  }
+
+.munkatars1, .munkatars2, .munkatars3, .munkatars4, .munkatars5 {
+  padding: 30px;
+  justify-content: center;
+}
+
+
+  .arcok {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    padding: 30px;
+    margin-left: 20px;
+  }
+
+
+
+.beer1aloldal, .beer2aloldal, .beer3aloldal, .beer4aloldal, .beer5aloldal, .beer6aloldal{
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding: 30px;
+}
+
+.flex-container{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px 400px 0px 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  font-size: 45px;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: center;
+  text-align: center;
+  width: 100vw;
+  max-height: 300px;
+}
+
+.történetünk {
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 80px 150px 50px 150px;
+  display: flex;
+  justify-content: center;
+
+}
+.flex-container-rolunk {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 80px 150px 50px 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
