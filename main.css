@@ -7,6 +7,17 @@
     font-family: 'Open Sans', sans-serif;
     justify-content: center;
     display: flex;
+    background-color: brown;
+}
+
+.preHeader2{
+  color: black;
+  font-size: 65px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: center;
+  display: flex;
+  background-color: blue;
 }
 
 .gomb{
