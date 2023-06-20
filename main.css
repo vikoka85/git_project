@@ -146,4 +146,12 @@ a{
 
 }
 
+.gyakorlás{
+  justify-content: center;
+  text-align: center;
+  background-color: brown;
+  width: 50%;
+  height: 300px;
+}
+
 
