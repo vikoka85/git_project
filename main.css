@@ -12,16 +12,22 @@
 
 .preHeader2{
   color: black;
-
   font-size: 65px;
-
   font-style: italic;
   font-family: 'Open Sans', sans-serif;
   justify-content: center;
   display: flex;
-
-
   background-color: rgb(35, 38, 211);
+}
+
+.preHeader3{
+  color: rgb(112, 2, 2);
+  font-size: 65px;
+  font-style: italic;
+  font-family: 'Open Sans', sans-serif;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(228, 243, 23);
 }
 
 .gomb{
